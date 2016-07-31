@@ -1,48 +1,202 @@
 
+*{
+
+	box-sizing: border-box;
+}
+
+
 body{
 
-	font-size:15px;
-
-}
-
-h1{
-	border:1px solid green;
-	width:20%;
-	font-size:15px;
-	float:left;
-	margin-top:0;
-}
-
-
-/*.container-fluid h1{
-
-	float:left;
-}*/
-
-/*.navbar{
-	display: inline;
-	list-style: none;
+	background:url("../images/background.png");
 	margin:0;
-	padding:0;*/
 
-.container-fluid{
-	display:inline;
-	list-style:square;
-	width:70%;
-	border: 1px solid black;
-	float:right;
-	margin-top:0;
 }
 
-#body{
+.header{
 
-border:1px solid black;
-margin-top:50px;
+	background:white;
+	/*margin-top: 20px;*/
+	padding:15px 100px;
+	/*margin-right: 20px*/
+	padding-bottom:1px;
+	border:1px solid #dedede;
+
+}
+
+.name{
+	background-color:#4aaaa5;
+	color:#ffffff;
+	border-radius:5px 5px 0 0;
+	padding:10px 20px;
+	display: inline-block;
+	margin:0;
+
+	
+}
+
+.name>a{
+	color:#ffffff;
+	font-size:25px;
+	text-decoration: none;
+
+}
+
+.nav{
+	display:inline;
+	float:right;
+}
+
+.nav > a {
+text-decoration:none;
+color: #9a9898;
+font-weight: bold;
+}
+
+
+.nav > a:not(:last-child) {
+border-right:1px solid grey;
+padding:3px;
+
+}
+
+.outer-box{
+
+	clear:both;
+	border-top:2px solid #f1efef;
+	margin: 40px 100px;
+	
+
+
+}
+
+
+.clearfix{
+
+	overflow:auto;
+
+}
+
+
+.inner-box{
+float:left;
+width:calc( 100% - 250px);
+min-width: 500px;
+background-color:#ffffff;
+text-align:justify;
+padding:20px;
+box-shadow: 2px 2px 5px #dedede;
+
+
+}
+
+
+.bio{
+
+	/*border:1px solid black;*/
+	color:#4aaaa5;
+	border-bottom: 3px solid #f1efef;
+
+
+
+}
+
+.image{
+	position:relative;
+	width:200px;
+	height:200px;
+	float:left;
+	padding-right: 20px;
+
+	
+}
+
+.intro{
+	display:inline;
+	/*padding-left: 10px;*/
+
+}
+
+.social{
+	float:right;
+	border:1px solid #f1efef;
+	background-color:#ffffff;
+	padding:25px;
+	width: 200px;
+	box-shadow: 2px 2px 5px #dedede;
 
 }
 
 
 img{
-height:10px;
-width:10px;
+
+	width: 40px;
+
 }
+
+h3{
+	border-bottom: 3px solid #f1efef;
+	margin:5px 0;
+}
+
+/*.container img:nth-child(3n+0){
+	height:100px;
+}*/
+
+/*.github-img {
+	height: 100px;
+}*/
+
+.footer{
+
+
+	border-top:15px solid #4aaaa5;
+	background-color:#666666;
+	clear:both;
+	color:#ffffff;
+	width:100%;
+	font-size:10px;
+	text-align:center;
+	padding: 20px;
+	margin: 0;
+
+	
+}
+
+.contact{
+
+
+}
+
+
+label{
+	display:block;
+	margin: 5px 0px;
+	color: grey;
+}
+
+input{
+margin:0;
+width: 80%;
+padding:10px;
+
+}
+
+textarea{
+
+width: 80%;
+height:150px;
+border-style:ridge;
+border-color: initial;
+}
+
+.submit {
+
+	width:20%;
+	padding:10px;
+	color:#ffffff;
+	background-color: #4aaaa5;
+	border-style: none;
+	font-weight:bold;
+
+}
+
