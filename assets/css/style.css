@@ -15,9 +15,7 @@ body{
 .header{
 
 	background:white;
-	/*margin-top: 20px;*/
 	padding:15px 100px;
-	/*margin-right: 20px*/
 	padding-bottom:1px;
 	border:1px solid #dedede;
 
@@ -79,7 +77,7 @@ padding:3px;
 
 .inner-box{
 float:left;
-width:calc( 100% - 250px);
+width:calc( 100% - 270px);
 min-width: 500px;
 background-color:#ffffff;
 text-align:justify;
@@ -120,14 +118,14 @@ box-shadow: 2px 2px 5px #dedede;
 	float:right;
 	border:1px solid #f1efef;
 	background-color:#ffffff;
-	padding:25px;
-	width: 200px;
+	padding:20px;
+	width: 240px;
 	box-shadow: 2px 2px 5px #dedede;
 
 }
 
 
-img{
+.social-network{
 
 	width: 40px;
 
@@ -137,14 +135,6 @@ h3{
 	border-bottom: 3px solid #f1efef;
 	margin:5px 0;
 }
-
-/*.container img:nth-child(3n+0){
-	height:100px;
-}*/
-
-/*.github-img {
-	height: 100px;
-}*/
 
 .footer{
 
@@ -162,10 +152,6 @@ h3{
 	
 }
 
-.contact{
-
-
-}
 
 
 label{
@@ -199,4 +185,57 @@ border-color: initial;
 	font-weight:bold;
 
 }
+
+
+/*img{
+
+	width:40%;
+	margin: 10px 10px;
+}
+
+*/
+
+
+.placeholder{
+
+	position:relative;
+	border:1px solid black;
+	float:left;
+	
+}
+
+
+.placeholder2{
+
+	position: relative;
+	float:right;
+}
+
+
+.portfolio-wrapper{
+
+	width:40%;
+	position: relative;
+	float:left;
+	margin: 0 20px;
+
+}
+
+.portfolio-image{
+	width:100%;
+
+
+}
+
+.portfolio-text{
+
+	position:absolute;
+	bottom:0;
+	background-color: green;
+	width:100%;
+}
+
+
+
+
 
